@@ -1,0 +1,13 @@
+Case tc = new Case();
+tc.Comments__c = 'Test Case ' + i++;
+tc.Sales_Rep__c = tu.Id; 
+tc.Account = ta;
+tc.AccountId = ta.Id ;
+tc.RecordTypeId = r.Id;
+tc.BTN_Entered__c = '5853853872';            
+tc.Customer_Porting__c = 'No';
+tc.Intercept_Message_Required__c = false;
+tc.Remote_Call_Forward_Required__c = false;
+tc.DID_Required__c = false;
+tc.ETP_Applied__c = false;
+tc.ETP_Waiver_Reason__c = 'Cause';
