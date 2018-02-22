@@ -11,3 +11,5 @@ tc.Remote_Call_Forward_Required__c = false;
 tc.DID_Required__c = false;
 tc.ETP_Applied__c = false;
 tc.ETP_Waiver_Reason__c = 'Cause';
+insert tc
+// case inserted
